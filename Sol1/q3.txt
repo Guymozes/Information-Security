@@ -1,0 +1,4 @@
+This program gets an input as a string: can be a pointer to a string, address, a string.
+The input is stored in the ESI register.
+
+The program returns the number of bytes that are not all zero: a byte is 8 bits, so the program counts how many bytes are not equal to '00000000'. The program will pass byte after byte, untill the null char: '\0'(which is stored in the ECX register).

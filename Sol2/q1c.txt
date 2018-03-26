@@ -1,0 +1,2 @@
+The scoring is for each char:
+    - I gave 6 points if a char is a char in english(a-z),but only small letters, because A-Z will not appear as much as a-z.

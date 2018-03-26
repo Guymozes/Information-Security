@@ -1,0 +1,2 @@
+The start value to xor is 64, that equals to d (ASCI table). So if the first byte is zero, the program will not xor chars and just check if the xor value is 64.
+Therefore, I changed the first byte to the null char and the second to be the char that has an ord value of 64.

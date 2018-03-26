@@ -1,0 +1,2 @@
+The PIN code is 4 digits, each can be 0-9.
+Therefore, the aren't really many options - so there are 10^4 options(10 for each digits) and if the encrypted code of a number is equal to the encrypted_PIN as given, that number is the same PIN code we are looking for.

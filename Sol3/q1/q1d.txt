@@ -1,0 +1,4 @@
+After calling the validate function, there is a test operation.
+By changing the opcode of test to cmp, we will get an operation of cmp eax,eax. At this situation, eax=eax. In addition, as the same way, I changed the opcode of jnz to jz.
+After this to changes, the program will always decide that the message is valid.
+(opcode of test is 85, cmp to registers is 39, jnz is 75 - changed to 74=jz)

@@ -1,0 +1,2 @@
+First the program gets a path to a file - trys to open it, then read  and then calls to validate. The validate function works like this:
+The first char is the loop index - the program will calculate the xor of the given value - 0x64, with each character of the given string. Then it checks if the xor value is equal to the second character of the given string - the validate function return true(EAX=0) if so, and false if not(EAX=1).

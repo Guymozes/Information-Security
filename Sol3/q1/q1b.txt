@@ -1,0 +1,2 @@
+After understood the program, I just fixed the value of the second char in the message to be as the xor value of the characters(from the second - as long as the first byte, without the second).
+This ensures us that the program will decide that the message is valid. 

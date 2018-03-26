@@ -1,0 +1,6 @@
+As I found the frequency of letters in texts, I created a list of the letters, by their appearance, included the space char.
+As seen in my code, I used the collections library, for finding the most frequency letter in each sub text of the cipher_text. When I found that, I created a new array of keys for the new object(rep) and checked each subtext(current_subtext), if its decrypted text returns the maximum plaintext_score.
+If so, I saved the maximum score and updated the relavent key.
+All the 'maximum keys' will be(after checking all sub texts of the cipher_text) the keys of the new object.
+
+After finding all 'good' keys, I decrypted the cipher_text with those keys - and found out the original text as wished.

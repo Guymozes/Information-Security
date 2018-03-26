@@ -1,0 +1,5 @@
+At the small dead zone, the code will be written in 635 and will jump to 0x5CD. The jump in patch1.asm is relative from the address of the jump order.
+At patch2.asm, I first checked if the first character is # - if not, returned back to regular code and continue. Second, I checked if the next character(if we found a #) is ! and if so - call the system function as asked - and corrected the arguments(without #!) so when calling system, the two characters will not be a part of the arguments.
+After system function returns, I jumped back, after the printf function, as wished - the jumps are at the big dead zone - I ensured the calls to jump by putting those orders around the middle of the dead zone.
+
+As seen in q2 and in patch2, I added nops for ensuring the jump to be at my new code.

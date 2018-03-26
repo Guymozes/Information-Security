@@ -1,0 +1,4 @@
+As seen at q2_atm, we know that if he status if CODE_APPROVAL, the test for the ATM CODE will pass.
+In addition,if we send 1 as the signature, we don't really care about the exponent(public key) and n, becauses 1^exp mod n = 1 and therefore, 1 will allways be a valid signature.
+
+**The RSA signature is 1, because the encrypted message will stay 1, thanks to the fact that (1^X)mod n = 1.

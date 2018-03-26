@@ -1,0 +1,1 @@
+Without changing anything else, I think the best option is to setup eax zero at both situations - if the message is valid or not. At the case the message is valid - the eax register is allready 0, therefore, I changed the value at the case of an invalid message -> eax will also be 0.

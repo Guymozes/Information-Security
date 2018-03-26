@@ -1,0 +1,2 @@
+Thanks to the product(imported from itertools), I decrypted every permutaion of the cipher text and checked each decryption - who has the highest score(that has been calculated by plaintext_score).
+The text(after decryption) that has the highest score, by the plaintext_score function, is the text that the brute_force function returned.

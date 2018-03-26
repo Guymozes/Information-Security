@@ -1,0 +1,4 @@
+We have 10^9 options for credit cards(each of 9 digits of the card can be 0-9).
+As seen in the lecture, at this case e=3(as given in aq2_atm). Therefore, as seen in slide 23, we get that n is much bigger(10^9^3=10^27) and therefore, after mod n, we get that m'=m.
+
+To find the number of credit card, we just neet to calculate the third root of the encrypted credit card and we will find the decrypted credit card!
